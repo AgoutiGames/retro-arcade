@@ -16,8 +16,8 @@ void Menu::init() {
     m_scene_manager->set_window_size(960,720);
 
     // Preload whole data folder
-    m_scene_manager->add_preload_directory("");
-    m_scene_manager->preload(50);
+    //m_scene_manager->add_preload_directory("");
+    //m_scene_manager->preload(50);
     // Initializes all characters in scene
     GameScene::init();
     // Setup member vars here | example: put(m_speed, "m_speed");
@@ -43,7 +43,7 @@ void Menu::button_pressed(std::string id) {
     }
     else if(id == "Start") {
         // Load next scene file
-        // m_scene_manager->next_scene("stage1.tmx");
+        m_scene_manager->next_scene("snake-arena1.tmx");
     }
     else {
         std::cerr << "Button type: " << id << " is unrecognized!\n";

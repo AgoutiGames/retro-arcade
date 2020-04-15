@@ -17,4 +17,14 @@
   <property name="DIRECTION" type="string" default="NONE"/>
   <property name="id" type="string"/>
  </objecttype>
+ <objecttype name="Pickup" color="#a0a0a4">
+  <property name="ACTOR_ANIMATION" type="string" default="NONE"/>
+  <property name="ACTOR_NAME" type="string"/>
+  <property name="DIRECTION" type="string" default="NONE"/>
+ </objecttype>
+ <objecttype name="Snake" color="#a0a0a4">
+  <property name="ACTOR_ANIMATION" type="string" default="NONE"/>
+  <property name="ACTOR_NAME" type="string"/>
+  <property name="DIRECTION" type="string" default="NONE"/>
+ </objecttype>
 </objecttypes>

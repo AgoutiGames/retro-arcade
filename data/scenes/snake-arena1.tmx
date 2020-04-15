@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="8" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="2">
+ <tileset firstgid="1" source="../tilesets/snake-arena/arena.tsx"/>
+ <tileset firstgid="3" source="../characters/snake/snake.tsx"/>
+ <layer id="1" name="Arena" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBrFJGNGKuJRO0btGLVj1I5RO0btGLVjYOwYyhgA88QDZw==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Actors">
+  <object id="1" name="Player" gid="5" x="120" y="120" width="8" height="8"/>
+ </objectgroup>
+</map>
