@@ -15,6 +15,8 @@ void Menu::init() {
     m_scene_manager->set_fullscreen(false);
     m_scene_manager->set_window_size(960,720);
 
+    m_scene_manager->set_linear_filtering(false);
+
     // Preload whole data folder
     //m_scene_manager->add_preload_directory("");
     //m_scene_manager->preload(50);

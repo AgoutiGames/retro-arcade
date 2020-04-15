@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="8" tileheight="8" infinite="0" nextlayerid="3" nextobjectid="2">
+ <properties>
+  <property name="type" value="SnakeArena"/>
+ </properties>
  <tileset firstgid="1" source="../tilesets/snake-arena/arena.tsx"/>
  <tileset firstgid="3" source="../characters/snake/snake.tsx"/>
  <layer id="1" name="Arena" width="25" height="25">

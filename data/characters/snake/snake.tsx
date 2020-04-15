@@ -20,6 +20,9 @@
    <property name="ACTOR_ANIMATION" value="Head"/>
    <property name="ACTOR_NAME" value="Snake"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="8" height="8"/>
+  </objectgroup>
  </tile>
  <tile id="3" type="ACTOR_ANIMATION">
   <properties>
